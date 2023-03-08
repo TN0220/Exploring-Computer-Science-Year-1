@@ -1,0 +1,36 @@
+import random
+x = random.randint(1,10)
+print("My favorite number is " + str(x))
+fn = input("What is your name?")
+print("Hi " + fn + "! Nice to meet you.")
+a = input("What type of hat do you wear? ")
+if a == "Caps" or a == "Bucket hat":
+    print("Me too! " + a + "s are the best!")
+else:
+    print("I wear those too!")
+b = input("Do you like wearing skirts? ")
+if b == "Yes":
+    print("That's nice!")
+elif b != "Yes": 
+    print("Oh. Alright!")
+else:
+    print("It seems like you prefer something else.")
+c = input("Do you prefer wearing shorts or pants? ")
+if c == "Shorts":
+    print("Cool!")
+elif c == "Pants":
+    print("Very cool!")
+d = input("Do you like wearing dresses? ")
+if d == "Yes": 
+    print("Wonderful!")
+elif d == "No":
+    print("That's fine.")
+else:
+    print("I see.")
+e = input("Do you have a favorite brand of shoes? ")
+if e == "Nike":
+    print("Same. They're popular.")
+elif e == "Adidas":
+    print("I also like that one.")
+else:
+    print("Great choice!")
